@@ -1,7 +1,10 @@
 {
-  "outputDirectory": ".",
+  "version": 2,
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  ],
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null
 }
